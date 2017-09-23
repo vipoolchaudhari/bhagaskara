@@ -1,0 +1,54 @@
+.background{
+		background:url("../images/bg.jpg") no-repeat; 
+		background-size:100%;
+		background-position: top; 
+		/* height: 100vh; */
+
+		h1{
+			text-align: center;
+			margin: 75px 0px 50px; 
+			a{
+				img{
+					height: 74px;
+					width: 325px;
+				}
+			}
+		}
+
+		h2{
+			text-align: center;
+			font-size: 32px;
+		}
+		p{
+			text-align: center;
+			font-size: 16px;
+			margin-bottom: 12px; 
+			span{
+				display: block;
+			}
+		}
+
+		.nav-boundary{
+			margin-top: 75px;
+			.nav_row{
+				display: flex;
+				justify-content: center;
+				list-style: none;
+				padding: 0px;
+				.nav-li{
+					height: 160px;
+					background: url('../images/bha.png') no-repeat;
+					background-size:100% ;
+					width: 130px;
+				}
+			}
+
+			.nav-arrow{
+				height: 60px;
+				background: url('../images/arrow.png') no-repeat;
+				background-size:100% ;
+				width: 60px;
+				align-self: flex-end;
+			}
+		}
+	}

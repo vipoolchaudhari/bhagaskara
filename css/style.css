@@ -391,6 +391,56 @@ template {
   display: none; }
 
 /* Base styles styles */
+.background {
+  background: url("../images/bg.jpg") no-repeat;
+  background-size: 100%;
+  background-position: top;
+  /* height: 100vh; */ }
+  .background h1 {
+    text-align: center;
+    margin: 75px 0px 50px; }
+    .background h1 a img {
+      height: 74px;
+      width: 325px; }
+  .background h2 {
+    text-align: center;
+    font-size: 32px; }
+  .background p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 12px; }
+    .background p span {
+      display: block; }
+  .background .nav-boundary {
+    margin-top: 75px; }
+    .background .nav-boundary .nav_row {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0px; }
+      .background .nav-boundary .nav_row .nav-li {
+        height: 160px;
+        background: url("../images/bha.png") no-repeat;
+        background-size: 100%;
+        width: 130px; }
+    .background .nav-boundary .nav-arrow {
+      height: 60px;
+      background: url("../images/arrow.png") no-repeat;
+      background-size: 100%;
+      width: 60px;
+      align-self: flex-end; }
+
 /* Module Files*/
+.container {
+  width: 830px; }
+
+.primary {
+  color: #6b6867; }
+
+.secondary {
+  color: #a14a9c; }
+
+.light {
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
