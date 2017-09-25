@@ -393,7 +393,7 @@ template {
 /* Base styles styles */
 .background {
   background: url("../images/bg.jpg") no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: top;
   /* height: 100vh; */ }
   .background h1 {
@@ -700,7 +700,7 @@ template {
 /* section service lorem */
 .services-lorem {
   background: url("../images/quotebg.png") no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center; }
   .services-lorem figure {
     text-align: center;
@@ -712,8 +712,8 @@ template {
       font-size: 32px;
       padding: 25px 3px 50px; }
 
-.container {
-  width: 830px; }
+.container-width {
+  padding: 0 15%; }
 
 .primary {
   color: #6b6867; }
@@ -789,5 +789,91 @@ template {
     width: 82.5%; }
   100% {
     width: 82.5%; } }
+@media only screen and (max-width: 420px) {
+  .background {
+    background-position: 48%; }
+    .background h1 {
+      text-align: center;
+      margin: 30px 0px 20px; }
+      .background h1 a img {
+        height: 60px;
+        width: 280px; }
+    .background h2 {
+      font-size: 20px; }
+    .background p {
+      margin-bottom: 0px;
+      font-size: 12px; }
+    .background .nav-boundary {
+      margin-top: 10px; }
+      .background .nav-boundary .nav-arrow {
+        margin: 0px; }
+        .background .nav-boundary .nav-arrow a {
+          margin-bottom: 10px; }
+
+  .container-width {
+    padding: 0 5%; }
+
+  .background .nav-boundary .nav_row .nav-li {
+    height: 127px;
+    width: 133px; }
+    .background .nav-boundary .nav_row .nav-li:hover {
+      height: 127px;
+      width: 133px; }
+
+  .lorem {
+    background: url(../images/quotebg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+
+  .sepcification .row .col-md-3 .thumbnail .caption h3 {
+    font-size: 20px; }
+  .sepcification .row .col-md-3 .thumbnail .caption p {
+    font-size: 16px; }
+
+  .heading {
+    background: none;
+    font-size: 38px; }
+
+  .about .screen-img img {
+    height: 250px; }
+
+  .about .para p {
+    padding-top: 60px;
+    font-size: 18px; }
+
+  .our-team .heading-our, .our-skills .heading-skills {
+    background: none;
+    font-size: 38px; }
+
+  .our-skills .row {
+    padding: 0px 40px; }
+
+  .about .para a {
+    padding: 12px 30px;
+    font-size: 22px;
+    border-bottom: 5px #582154 solid; }
+
+  .our-team .row .thumbnail .caption h3 {
+    font-size: 20px; }
+  .our-team .row .thumbnail .caption p {
+    font-size: 16px; }
+
+  .our-team .row .thumbnail .social-icon a img {
+    width: 40px;
+    height: 40px; }
+
+  .navbar-brand {
+    padding: 7px 15px; }
+
+  .background .navbar-default .navbar-brand img {
+    height: 33px;
+    width: 130px; }
+
+  .our-team .heading-our {
+    padding: 60px 0px 60px; }
+
+  .about .para {
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
