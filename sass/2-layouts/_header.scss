@@ -43,16 +43,16 @@
 					width: 133px;
 					position: relative;
 					display: inline-block;
-					-webkit-transition: transform  0.6s ease-in-out;
-					   -moz-transition: transform  0.6s ease-in-out;
-					    -ms-transition: transform  0.6s ease-in-out;
-					     -o-transition: transform  0.6s ease-in-out;
-					        transition: transform  0.6s ease-in-out;
 					&:hover{
 						background: url('../images/hoverbg.png') no-repeat;
 						height: 130px;
 						background-size:100% ;
 						width: 133px;
+					-webkit-transition: transform  0.6s ease-in-out;
+					   -moz-transition: transform  0.6s ease-in-out;
+					    -ms-transition: transform  0.6s ease-in-out;
+					     -o-transition: transform  0.6s ease-in-out;
+					        transition: transform  0.6s ease-in-out;
 						-webkit-transform: rotateY(360deg);
 						   -moz-transform: rotateY(360deg);
 						    -ms-transform: rotateY(360deg);
